@@ -14,7 +14,6 @@ public:
 	Figure(int x, int y, int r, int g, int b) {
 		this->x = x;
 		this->y = y;
-		dx = dy = 10;
 		width = rand() % 30 + 10;
 		height = rand() % 30 + 10;
 		this->r = r;
