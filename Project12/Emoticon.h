@@ -1,7 +1,11 @@
 #pragma once
-#include"Face.h"
 
-class Emoticon : public Face {
+class Emoticon {
+private:
+	Ojos ojo1;
+	ojo1 = new Ojos(30, 10, 0, 0, 0);
+	Ojos ojo2;
+	ojo2 = new Ojos(50, 10, 0, 0, 0);
 public:
 	Emoticon() {
 

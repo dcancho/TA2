@@ -1,4 +1,4 @@
-#pragma once
+/*#pragma once
 #include "Boca.h"
 #include "Nariz.h"
 #include "Ojos.h"
@@ -22,4 +22,4 @@ public:
 		OjoI->draw(g);
 		OjoD->draw(g);
 	}
-};
+};*/
