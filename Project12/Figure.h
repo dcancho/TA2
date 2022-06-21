@@ -7,7 +7,6 @@ using namespace System::Drawing;
 class Figure {
 protected:
 	int x, y;
-	int dx, dy;
 	int width, height;
 	int r, g, b;
 	
