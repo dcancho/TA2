@@ -1,27 +1,28 @@
 #pragma once
-#include"Boca.h"
-#include"Figure.h"
-#include"Nariz.h"
-#include"Ojos.h"
+#include"Face.h"
 
-class Emoticon {
+class Emoticon : public Face {
 public:
 	Emoticon() {
 
 	}
 	~Emoticon(){}
 
-	void CaraTriste{
+	void CaraTriste()
+	{
+		Figure* boca = new Boca(100,20,)
+		setBoca()
+	}
+	void CaraAsombrada() {
 
+	}
+	void CaraSeria() {
 
 
 	}
-	void CaraAsombrada{
+
+	void Draw(Graphics^ g)
+	{
 
 	}
-	void CaraSeria{
-
-
-	}
-
 };

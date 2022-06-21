@@ -6,8 +6,20 @@
 class Face
 {
 private:
-	Boca* boca;
+	Figure* boca;
 	Nariz* nariz;
 	Ojos* OjoI;
 	Ojos* OjoD;
+public:
+	void setBoca(Figure* b)
+	{
+		boca = b;
+	}
+	void draw(Graphics^ g)
+	{
+		boca->draw(g);
+		nariz->draw(g);
+		OjoI->draw(g);
+		OjoD->draw(g);
+	}
 };

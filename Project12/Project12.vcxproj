@@ -122,6 +122,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Boca.h" />
+    <ClInclude Include="Emoticon.h" />
     <ClInclude Include="Face.h" />
     <ClInclude Include="Figure.h" />
     <ClInclude Include="Form1.h">
