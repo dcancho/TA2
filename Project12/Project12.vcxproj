@@ -121,13 +121,14 @@
     <ClCompile Include="Form1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Circle.h" />
+    <ClInclude Include="Boca.h" />
+    <ClInclude Include="Face.h" />
     <ClInclude Include="Figure.h" />
     <ClInclude Include="Form1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="Square.h" />
-    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="Nariz.h" />
+    <ClInclude Include="Ojos.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
