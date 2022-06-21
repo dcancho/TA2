@@ -1,10 +1,10 @@
 #pragma once
 #include "Figure.h"
 
-class Triangle : public Figure {
+class Nariz : public Figure {
 public:
-	Triangle(int x, int y, int r, int g, int b) : Figure(x, y , r, g, b) {}
-	~Triangle(){}
+	Nariz(int x, int y, int r, int g, int b) : Figure(x, y , r, g, b) {}
+	~Nariz(){}
 
 	//Erase - Move - Draw
 	void draw(Graphics^ g) {
