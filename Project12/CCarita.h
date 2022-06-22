@@ -5,16 +5,15 @@
 #include"CBoca.h"
 
 class CCarita {
-
+//tamano del rostro = 140 x 200 (?)
 public:
 	CCarita() {
 		ojoSize = 2;
-		ojo[0] = new COjo(60, 40, 60, 20);
-		ojo[1] = new COjo(140, 40, 60, 20);
-	
-		nariz = new CNariz(110, 80, 40, 40);
+		ojo[0] = new COjo(85, 45, 60, 20);
+		ojo[1] = new COjo(165, 45, 60, 20);
+		nariz = new CNariz(135, 85, 40, 40);
 
-		boca = new CBoca(60, 140, 140, 120);
+		boca = new CBoca(85, 140, 140, 120);
 	}
 	~CCarita() {
 		for (int i = 0; i < ojoSize; ++i) {
