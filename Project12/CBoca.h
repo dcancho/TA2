@@ -18,7 +18,7 @@ public:
 		}
 		else {
 			if (tipo == 2) {
-				gr->DrawLine(gcnew Pen(Color::Yellow, 3), x, y, ancho * 2, y);
+				gr->DrawLine(gcnew Pen(Color::Yellow, 3), x, y, 200, y);
 			}
 			else {
 				if (tipo == 3) {
